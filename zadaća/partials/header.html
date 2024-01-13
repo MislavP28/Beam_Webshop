@@ -5,8 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="/js/javascript.js"></script>
+    <style>
+        body {
+              background-color: black;
+              background-image: url(../Slike/images/wallpaperflare.com_wallpaper.jpg);
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+        .icon { width: 32px;
+                height:32px;
+                filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(101%) contrast(105%);
+              }
+        .prvi_red 
+                {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    height: 100px;
+                }
+        .prvi_red div
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        .banner
+                {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+        .banner img
+        {
+             height:250px;
+             width: 800px;
+        }
+        
+        #gpulogo:hover
+                {
+                    filter: invert(78%) sepia(9%) saturate(1305%) hue-rotate(304deg) brightness(104%) contrast(101%);
+                }
+        #pretraži_trg:hover
+                {
+                    filter: invert(78%) sepia(9%) saturate(1305%) hue-rotate(304deg) brightness(104%) contrast(101%);
+                }
+        #srč:hover
+                {
+                    filter: invert(78%) sepia(9%) saturate(1305%) hue-rotate(304deg) brightness(104%) contrast(101%);
+                }
+
+        #fb:hover 
+                {
+                filter: invert(35%) sepia(64%) saturate(849%) hue-rotate(187deg) brightness(90%) contrast(78%);
+                }
+
+        #tw:hover 
+                {
+                filter: invert(49%) sepia(45%) saturate(1822%) hue-rotate(176deg) brightness(97%) contrast(95%);
+                }
+
+        #in:hover 
+                {
+                filter: invert(31%) sepia(33%) saturate(2440%) hue-rotate(289deg) brightness(96%) contrast(97%);
+                }
+
+        #wp:hover 
+                {    
+                filter: invert(63%) sepia(94%) saturate(412%) hue-rotate(86deg) brightness(92%) contrast(87%);
+                }
+        #em:hover
+                {
+                    filter: invert(6%) sepia(96%) saturate(7391%) hue-rotate(300deg) brightness(92%) contrast(101%);
+                }
+        
+
+
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div>
+                <div class="banner">
+                    <img src="../Slike/images/giphy.gif" alt="gifbannera">
+                </div>
+                <div class="prvi_red">
+                   <div class="email">
+                        <a id="em" href="www.gmail.com" target="_blank"><img class="icon" src="../Slike/ikone/envelope-at.svg" alt="Link za mail">gpukriticar@gmail.com</a>
+                    </div>
+                    <div class="telefon">
+                        <img class="icon" src="../Slike/ikone/phone.svg" alt="Broj Telefona">097 4477638
+                    </div>
+                    <div class="instagram">
+                        <a id="in" href="https://www.instagram.com/" target="_blank"><img class="icon" src="../Slike/ikone/instagram.svg" alt="Link za Instagram"></a>
+                    </div>
+                    <div class="facebook">
+                        <a id="fb" href="https://www.facebook.com" target="_blank"><img class="icon" src="../Slike/ikone/facebook.svg" alt="Link za Facebook"></a>
+                    </div>
+                    <div class="twitter">
+                        <a id="tw" href="https://twitter.com" target="_blank"><img class="icon" src="../Slike/ikone/twitter-x.svg" alt="Link za Twitter"></a>
+                    </div>
+                    <div class="whatsapp">
+                        <a id="wp" href="https://www.whatsapp.com/gpukriticar/" target="_blank"> <img class="icon" src="../Slike/ikone/whatsapp.svg" alt="Link za whatsapp"></a>
+                    </div>
+
+                    <div class="pretraži">
+                        <input id="pretraži_trg" type="text" placeholder="Pretraži trgovinu">
+                        <button type="submit"><img id="srč" class="icon" src="../Slike/ikone/search.svg" alt="Pretraži">  </button>
+                    </div>
+
+                </div>
+                <div class="drugi_red">
+                    <div class="logo">
+                        <a id="gpulogo" href="index.html"> <img class="icon" src="../Slike/ikone/reshot-icon-best-graphics-YWNP5SJF43.svg" alt="Logo" height="100px" width="100px">
+                    </div>
+
+                </div>
+                
+                
+        </div>
+    </header>
 </body>
 </html>
