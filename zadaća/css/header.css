@@ -1,8 +1,6 @@
-body {
-      background-image: url(../Slike/images/wallpaperflare.com_wallpaper.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
+.main{
+        height: 1000px;
+}
 .icon { width: 32px;
         height:32px;
         filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(101%) contrast(105%);
