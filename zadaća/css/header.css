@@ -1,6 +1,4 @@
-.main{
-        height: 1000px;
-}
+
 .icon { width: 32px;
         height:32px;
         filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(101%) contrast(105%);
