@@ -6,5 +6,72 @@
 body {
     background-image: url(../Slike/images/wallpaperflare.com_wallpaper.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
+main{
+    background-color: rgba(0, 0, 0, 0.766);
+    border-radius: 15px;
+    color: white;
+  }
+.popularne_kategorije{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:white;
+}
+.popularne_kategorije{ 
+    text-decoration: none;
+    color: white;
+}
+
+
+.popularni_proizvodi{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;  
+}
+.popularni_proizvodi a section{
+    margin: 10px;
+}
+.popularni_proizvodi img{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.popularni_proizvodi .klikkup {
+    height: 25px;
+    width: 25px;
+}
+.blog img{
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+}
+.blog{
+    display: flex;
+    justify-content:space-around;
+}
+.blog section{
+    width: 100%;
+    font-size: x-large;
+}
+.slika1 {
+    float: left;
+    margin: 20px;
+}
+.slika2 {
+    float: right;
+    margin: 20px;
+}
+.newsletter button {
+    height: 34px;
+    width: 40px;
+}
+.newsletter input {
+    height: 30px;
+    width: 200px;
+}
+.nlala {
+    border-radius: 30px;
+} 
