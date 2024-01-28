@@ -14,9 +14,9 @@ li {
     list-style-type: none;
 }
 
-input
+input, textarea, button
 {
-
+    border-radius: 25px;
 }
 
 .icon 
