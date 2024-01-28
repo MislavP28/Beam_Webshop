@@ -31,6 +31,48 @@ input, textarea, button
     height: 110px;
 }
 
+.podatci
+{
+    font-size: xx-large;
+}
+
+form
+{
+    font-size: xx-large;
+}
+input
+{
+    height: 35px;
+    width: 150px;
+}
+
+input::placeholder
+{
+    color: red;
+}
+
+button
+{
+    height: 35px;
+    width: 100px;
+    background-color: plum;
+    color: white;
+    border-radius: 25px;
+}
+button:hover
+{
+    height: 45px;
+    width: 150px;
+    font-size: 25px;
+    color: black;
+}
+
+img
+{
+    height: 850px;
+    width: 850px;
+}
+
 #fb:hover 
         {
         filter: invert(35%) sepia(64%) saturate(849%) hue-rotate(187deg) brightness(90%) contrast(78%);
