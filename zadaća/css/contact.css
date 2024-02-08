@@ -73,6 +73,11 @@ img
     width: 850px;
 }
 
+main
+{
+    margin-bottom: 20px;
+}
+
 #fb:hover 
         {
         filter: invert(35%) sepia(64%) saturate(849%) hue-rotate(187deg) brightness(90%) contrast(78%);

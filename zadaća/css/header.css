@@ -18,6 +18,19 @@
             align-items: center;
             margin-inline: 50px;
         }
+.Prvidioimena
+{
+        color: Plum;
+        font-size: xx-large;
+}
+
+.Drugidioimena
+{
+        color: plum;
+        font-size: xx-large;
+}
+
+
 .socialmedia div{
             margin-inline: 10px;
 }
@@ -44,6 +57,13 @@
             color: white;
             text-decoration: none;
 }
+
+.onama a:hover
+{
+        font-size: 55px;
+        color: plum;
+}
+
 #em {
             text-decoration: none;
             color: white;
@@ -55,10 +75,12 @@
 .banner
         {
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
             flex-wrap: wrap;
             background-color: rgba(0, 0, 0, 0.766);
             border-radius: 15px;
+            align-items: center;
+            text-align: center;
         }
 .banner img
 {
@@ -72,6 +94,8 @@
             width: 220px;
             border-radius: 15px;
 }
+
+
 
 #gpulogo img {
             width: 100px;

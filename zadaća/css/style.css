@@ -24,12 +24,29 @@ main{
 }
 .popularne_kategorije{ 
     text-decoration: none;
-    color: yellow;
     width: 100%;
     height: 100px;
     
 }
+.popularne_kategorije a, .popularne_kategorije
+{
+    color: plum;
+}
+.blog p
+{
+    margin-inline: 10px;
+    text-align: justify;
+    line-height: 35px;
+}
+.newsletter
+{
+    margin-left: 15px;
+}
 
+.newsletter p
+{
+    padding-bottom: 15px;
+}
 
 .popularni_proizvodi{
     display: flex;
@@ -83,7 +100,7 @@ main{
     border-radius: 30px;
 } 
 
-.interni_proizvod, h3, a 
+.interni_proizvod, h3, a  
 {
     text-decoration: none;
     color: white;
