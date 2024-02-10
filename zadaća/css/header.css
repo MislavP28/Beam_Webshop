@@ -1,23 +1,54 @@
 
-.icon { width: 32px;
+
+.icon { 
+        width: 32px;
         height:32px;
         filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(101%) contrast(105%);
       }
-.prvi_red 
-        {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            height: 100px;
-            color: white;   
-        }
+
+.below_banner {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.766);
+        border-radius: 100px;
+        height: 200px;
+        margin-inline: 25px;
+}
+
+.logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: plum;
+        min-width: 200px;
+        height: 200px;
+        border-radius: 300px;
+}
+
+#gpulogo img {
+        width: 120px;
+        height: 120px;
+}
+
+.main_menu {
+        width: 100%;
+}
+.prvi_red {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 100px;
+        color: white;  
+}
+
 .prvi_red > div
         {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-inline: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-inline: 50px;
         }
+
 .Prvidioimena
 {
         color: Plum;
@@ -34,28 +65,27 @@
 .socialmedia div{
             margin-inline: 10px;
 }
+
 .drugi_red{
-            display: flex;
-            align-items: center;
-            
+        display: flex;
+        align-items: center;
+        height: 100px;       
 }
 .onama a{
-            margin-inline: 0 auto;
+        margin-inline: 0 auto;
+        width: 200px;
 }
-.logo{
-            display: flex;
-            justify-content: left;
-}
+
 .onama{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            width: 100%;   
-            font-size: 45px;       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;   
+        font-size: 45px;       
 }
 .onama a {
-            color: white;
-            text-decoration: none;
+        color: white;
+        text-decoration: none;
 }
 
 .onama a:hover
@@ -65,48 +95,48 @@
 }
 
 #em {
-            text-decoration: none;
-            color: white;
-            font-size: larger;
+        text-decoration: none;
+        color: white;
+        font-size: larger;
 }
 .telefon {
-            font-size: larger;
+        font-size: larger;
+}
+ a {
+        text-decoration: none;
+        color: white;
 }
 .banner
         {
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            background-color: rgba(0, 0, 0, 0.766);
-            border-radius: 15px;
-            align-items: center;
-            text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: rgba(0, 0, 0, 0.766);
+        border-radius: 1000px;
+        align-items: center;
+        text-align: center;
+        margin-inline: 25px;
+        margin-bottom: 25px;
+
         }
 .banner img
 {
-            height:250px;
-            width: 800px;
+        height:350px;
+        width: 700px;
+        border-radius: 300px;
 }
 
 .pretraži input {
-            border: solid white;
-            height: 30px;
-            width: 220px;
-            border-radius: 15px;
+        border: solid white;
+        height: 30px;
+        width: 220px;
+        border-radius: 15px;
 }
 
-
-
-#gpulogo img {
-            width: 100px;
-            height: 100px;
-            border-radius: 15px;
-
-}
 
 #gpulogo:hover
         {
-            filter: invert(78%) sepia(9%) saturate(1305%) hue-rotate(304deg) brightness(104%) contrast(101%);
+        filter: invert(78%) sepia(9%) saturate(1305%) hue-rotate(304deg) brightness(104%) contrast(101%);
         }
 #fb:hover 
         {
@@ -129,9 +159,9 @@
         }
 #em:hover
         {
-            filter: invert(6%) sepia(96%) saturate(7391%) hue-rotate(300deg) brightness(92%) contrast(101%);
+        filter: invert(6%) sepia(96%) saturate(7391%) hue-rotate(300deg) brightness(92%) contrast(101%);
         }
 #košara:hover
         {
-            filter: invert(78%) sepia(9%) saturate(1305%) hue-rotate(304deg) brightness(104%) contrast(101%);
+        filter: invert(78%) sepia(9%) saturate(1305%) hue-rotate(304deg) brightness(104%) contrast(101%);
         }
