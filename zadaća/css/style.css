@@ -11,8 +11,9 @@ body {
   }
 main{
     background-color: rgba(0, 0, 0, 0.766);
-    border-radius: 15px;
+    border-radius: 65px;
     color: white;
+    margin-inline: 25px;
   }
 .popularne_kategorije{
     display: flex;

@@ -15,7 +15,8 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.766);
-    border-radius: 15px;
+    border-radius: 1000px;
+    margin-inline: 25px;
 }
 
 .prvi_dio, .kontakt, .illegals, .rights {
